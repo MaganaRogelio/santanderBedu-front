@@ -3,12 +3,17 @@ body{
 }
 h1{
     color: aqua;
+    background-color:black;
 }
 h2{
     color: #46484c;
 }
 strong{
     color: #8b8b8bcc;
+}
+p{
+    width: 50%;
+    text-align: justify;
 }
 button{
     color: #fff;
