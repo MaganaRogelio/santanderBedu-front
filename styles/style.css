@@ -1,7 +1,19 @@
 body{
     background-color: #fffbf7;
 }
+.header {
+    /* Margin: top-bottom right-left */
+    margin: 40px 20px 0 20px;
+    font-size: 0;
+    line-height: 45px;
+    font-family: sans-serif;
+    /* Centrar todo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 h1{
+    margin: 50px 20px;
     color: aqua;
     background-color:black;
 }
@@ -19,3 +31,56 @@ button{
     color: #fff;
     background-color: #025157;
 }
+
+
+li{
+    display: inline;
+}
+
+header *{
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    line-height: 45px;
+}
+
+.logo {
+    width: 15%;
+}
+.logo > img {
+    height: 100%;
+}
+
+.navbar {
+    width: 70%;
+    text-align: left;
+    color: #025157;
+    font-weight: bolder;
+    /* Va más con el espacio de palabras entre párrafos, no en hijos 
+    word-spacing: 50px; */
+}
+
+.menu-item {
+    display: inline;
+    margin: 0 25px;
+}
+.actions {
+    width: 15%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+.actions * {
+    margin: 0 10px;
+}
+.actions a{
+    color: #67b54b;
+}
+.bt-start {
+    padding: 12px 14px;
+    width: max-content;
+    color: #ffffff;
+    background-color: #67b54b;
+    border: 0;
+    border-radius: 5px;
+} 
