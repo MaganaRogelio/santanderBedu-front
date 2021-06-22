@@ -11,39 +11,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-h1{
-    margin: 50px 20px;
-    color: aqua;
-    background-color:black;
 }
-h2{
-    color: #46484c;
-}
-strong{
-    color: #8b8b8bcc;
-}
-p{
-    width: 50%;
-    text-align: justify;
-}
-button{
-    color: #fff;
-    background-color: #025157;
-}
-
-
-li{
-    display: inline;
-}
-
 header *{
     display: inline-block;
     font-size: 16px;
     vertical-align: middle;
     line-height: 45px;
 }
-
 .logo {
     width: 15%;
 }
@@ -84,3 +58,22 @@ header *{
     border: 0;
     border-radius: 5px;
 } 
+h1{
+    margin: 50px 20px;
+    color: aqua;
+    background-color:black;
+}
+h2{
+    color: #46484c;
+}
+strong{
+    color: #8b8b8bcc;
+}
+p{
+    width: 50%;
+    text-align: justify;
+}
+button{
+    color: #fff;
+    background-color: #025157;
+}
