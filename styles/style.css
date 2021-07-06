@@ -61,9 +61,6 @@ button {
   margin-left: -10px;
 }
 
-form {
-  height: 55px;
-}
 
 figure {
   margin-top: 32px;
@@ -105,15 +102,13 @@ header * {
   height: 100%;
 }
 
-.navbar {
+/* .navbar {
   width: 60%;
   text-align: left;
   color: #025157;
   font-weight: 100;
   justify-content: center;
-  /* Va más con el espacio de palabras entre párrafos, no en hijos 
-  word-spacing: 50px; */
-}
+} */
 
 .menu-item {
   display: inline;
@@ -148,14 +143,28 @@ header * {
 }
 
 /* article form 1 ses */
-.publish {
-  align-items: center;
-  position: relative;
-}
-.publish > form {
+.publish  form {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+}
+.publish  form  div {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+.publish  form  div  * {
+  margin: 1rem 0;
+}
+
+.publish form .publish-button {
+  justify-content: start;
+  align-self: flex-end;
+}
+.publish form .publish-button > button {
+  margin-left: -10px;
+  max-width: max-content;
 }
 
 /* Publish section */
@@ -216,6 +225,28 @@ header * {
   width: 60%;
   max-width: 250px;
 }
+
+/* Carousel section */
+.carousel-lofi {
+  padding: 10%;
+  background-color: #FF7A45;
+}  
+
+/* bootstrap extra section */
+.extra-boots {
+  background-color: #C794D8;
+}
+.spinners-boots {
+  display: flex;
+  justify-content: space-between;
+}
+.cards-boots{
+  display: flex;
+  justify-content: space-around;
+  margin: 5%;
+
+}
+
 /* Features section */
 .features {
   background-color: #025157;
@@ -545,10 +576,10 @@ header * {
 /* Media Queries */
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-  .navbar,
+  /* .navbar,
   .actions {
     display: none;
-  }
+  } */
 
   main {
     margin-top: 150px;
