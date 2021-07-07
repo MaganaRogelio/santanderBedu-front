@@ -38,6 +38,9 @@ p {
   margin-top: 15px;
   margin-bottom: 1rem;
 }
+form {
+  height: 55px;
+}
 
 input,
 button {
@@ -144,6 +147,7 @@ header * {
 
 /* article form 1 ses */
 .publish  form {
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -152,10 +156,11 @@ header * {
 .publish  form  div {
   display: flex;
   width: 70%;
+  height: 15%;
   justify-content: space-between;
 }
 .publish  form  div  * {
-  margin: 1rem 0;
+  margin: 0.5rem 0;
 }
 
 .publish form .publish-button {

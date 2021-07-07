@@ -1,15 +1,15 @@
 @use 'global' as *;
 
 .start-free {
-    color: $white;
-    background-color: $light-green;
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border: 0;
-    border-radius: 5px;
-    margin-left: 10px;
+  color: $white;
+  background-color: $light-green;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 0;
+  border-radius: 5px;
+  margin-left: 10px;
 }
 
 .blog {
@@ -80,7 +80,7 @@
       }
     }
     .card-text {
-        color: $gray;
+      color: $gray;
       font-size: 18px;
       line-height: 1.5em;
       min-height: 6em;
@@ -105,6 +105,81 @@
         font-size: 14px;
         color: $gray;
       }
+    }
+  }
+}
+
+.home-people {
+  background-image: url(https://getmatcha.com/wp-content/themes/getmatcha/css/../img/home_people.png);
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  height: 350px;
+}
+
+.try-it {
+  padding: 5% 5% 2%;
+  background-color: #96d178;
+  margin-top: -30px;
+  h2 {
+    color: #025157;
+    font-size: 60px;
+    font-family: "Alegreya", serif;
+  }
+  form {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  & > p {
+    color: $white;
+    font-size: 14px;
+    font-weight: 500;
+    & > strong {
+      color: $white;
+    }
+  }
+}
+.cta {
+  padding: 5% 10% 0;
+  margin: 0;
+  max-width: unset;
+  .box {
+    background-color: $dark-green-text;
+    color: $white;
+    padding: 5%;
+    border-radius: 10px;
+    h2 {
+      color: $white;
+      font-family: "Alegreya", serif;
+      font-size: 34px;
+      max-width: 340px;
+      line-height: 1.3;
+    }
+    p {
+      color: $white;
+      margin-top: 15px;
+      line-height: 25px;
+      font-weight: 400;
+      font-size: 17px;
+      & > a {
+        color: $light-green;
+      }
+    }
+    form {
+      input, button {
+        vertical-align: middle;
+      }
+      button {
+        background-color: $light-green;
+      }
+    }
+    p {
+      color: #b3cbcd;
+      margin-top: 15px;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.6;
+      max-width: 340px;
     }
   }
 }
