@@ -11,6 +11,21 @@
   border-radius: 5px;
   margin-left: 10px;
 }
+.success-stories {
+  .stories-carrousel {
+    flex: 1;
+    .card {
+      max-width: 370px;
+      width: 100%;
+      // background-color: #fff;
+      border-radius: 10px;
+    }
+    .carousel-indicators {
+      position: unset;
+      top: 20px;
+    }
+  }
+}
 
 .blog {
   background-color: $color-blue;

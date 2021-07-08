@@ -64,7 +64,6 @@ button {
   margin-left: -10px;
 }
 
-
 figure {
   margin-top: 32px;
 }
@@ -146,20 +145,20 @@ header * {
 }
 
 /* article form 1 ses */
-.publish  form {
+.publish form {
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.publish  form  div {
+.publish form div {
   display: flex;
   width: 70%;
   height: 15%;
   justify-content: space-between;
 }
-.publish  form  div  * {
+.publish form div * {
   margin: 0.5rem 0;
 }
 
@@ -234,22 +233,21 @@ header * {
 /* Carousel section */
 .carousel-lofi {
   padding: 10%;
-  background-color: #FF7A45;
-}  
+  background-color: #ff7a45;
+}
 
 /* bootstrap extra section */
 .extra-boots {
-  background-color: #C794D8;
+  background-color: #c794d8;
 }
 .spinners-boots {
   display: flex;
   justify-content: space-between;
 }
-.cards-boots{
+.cards-boots {
   display: flex;
   justify-content: space-around;
   margin: 5%;
-
 }
 
 /* Features section */
@@ -336,9 +334,9 @@ header * {
   align-items: center;
   justify-content: space-around;
 }
-.success-stories * {
+/* .success-stories * {
   display: flex;
-}
+} */
 
 .success-stories .overview {
   flex: 2;
@@ -379,7 +377,7 @@ header * {
   align-self: center;
 }
 
-.cards {
+.card {
   width: 270px;
   flex-direction: column;
   padding: 0;
@@ -459,8 +457,8 @@ header * {
 }
 
 .card-footer {
-  padding: 1px 0px;
-  margin: 25px;
+  padding: 25px;
+  margin-bottom: 20px;
   background-color: unset;
   border-top: unset;
 }
