@@ -161,7 +161,7 @@ header * {
   justify-content: flex-start;
 }
 .publish form div * {
-  margin: 1vw 1vh;
+  margin: 0.5em 0.2em
 }
 .publish form div input {
   width: auto;
