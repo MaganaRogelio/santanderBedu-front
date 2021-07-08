@@ -219,7 +219,7 @@
   h4 {
     text-transform: uppercase;
     color: #025157;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 13px;
     font-family: sans-serif;
   }
@@ -232,6 +232,17 @@
         color: #4a4a4a;
       }
     }
+  }
+  .social {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    img {
+      height: 100%;
+    }
+  }
+  div .text-right strong {
+    color: $dark-green-text;
   }
 }
 

@@ -206,7 +206,7 @@
 .footer h4 {
   text-transform: uppercase;
   color: #025157;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 13px;
   font-family: sans-serif;
 }
@@ -219,6 +219,17 @@
 }
 .footer ul li a {
   color: #4a4a4a;
+}
+.footer .social {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer .social img {
+  height: 100%;
+}
+.footer div .text-right strong {
+  color: #135359;
 }
 
 @media (max-width: 575px) {
