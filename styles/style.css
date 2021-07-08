@@ -149,26 +149,26 @@ header * {
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-self: center;
   align-items: center;
-}
-.publish form div {
-  display: flex;
-  width: 70%;
-  height: 15%;
-  justify-content: space-between;
-}
-.publish form div * {
-  margin: 0.5rem 0;
+  flex:2;
 }
 
-.publish form .publish-button {
-  justify-content: start;
-  align-self: flex-end;
+.publish form div {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  justify-content: flex-start;
 }
-.publish form .publish-button > button {
-  margin-left: -10px;
-  max-width: max-content;
+.publish form div * {
+  margin: 1vw 1vh;
+}
+.publish form div input {
+  width: auto;
+}
+
+.publish form div span button {
+  margin-left: -15px;
 }
 
 /* Publish section */
@@ -334,9 +334,6 @@ header * {
   align-items: center;
   justify-content: space-around;
 }
-/* .success-stories * {
-  display: flex;
-} */
 
 .success-stories .overview {
   flex: 2;
@@ -369,11 +366,9 @@ header * {
   border-radius: 8px;
   font-size: 18px;
   font-weight: 600;
-  width: 100%;
   background-color: #025157;
   color: #fff;
   border: none;
-  width: 60%;
   align-self: center;
 }
 
