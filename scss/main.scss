@@ -63,47 +63,52 @@
     width: 180px;
     margin-bottom: 15px;
   }
-
-  .card {
-    .card-body {
-      color: $gray;
-
-      .card-title {
-        @extend %card-title;
-      }
-    }
-    .metadata {
-      color: $gray;
-
-      .category {
-        color: $light-green;
-      }
-    }
-    .card-text {
-      color: $gray;
-      font-size: 18px;
-      line-height: 1.5em;
-      min-height: 6em;
-      & > .read-more > a {
-        &:not([href]) {
-          color: inherit;
-          text-decoration: underline;
+  .col {
+    float: left;
+    width: 31%;
+    padding: 1%;
+    // height: 300px; /* Should be removed. Only for demonstration */
+    .card {
+      .card-body {
+        color: $gray;
+  
+        .card-title {
+          @extend %card-title;
         }
       }
-    }
-    .author {
-      display: flex;
-      align-items: center;
-      img {
-        border-radius: 50%;
-        width: 35px;
-        height: 35px;
-      }
-      p {
-        margin-left: 8px;
-        font-weight: 600;
-        font-size: 14px;
+      .metadata {
         color: $gray;
+  
+        .category {
+          color: $light-green;
+        }
+      }
+      .card-text {
+        color: $gray;
+        font-size: 18px;
+        line-height: 1.5em;
+        min-height: 6em;
+        & > .read-more > a {
+          &:not([href]) {
+            color: inherit;
+            text-decoration: underline;
+          }
+        }
+      }
+      .author {
+        display: flex;
+        align-items: center;
+        img {
+          border-radius: 50%;
+          width: 35px;
+          height: 35px;
+        }
+        p {
+          margin-left: 8px;
+          font-weight: 600;
+          font-size: 14px;
+          color: $gray;
+        }
       }
     }
   }
@@ -180,6 +185,19 @@
       font-weight: 500;
       line-height: 1.6;
       max-width: 340px;
+    }
+  }
+}
+
+@media (max-width: 575px){
+  .blog{
+    .row {
+      display: grid;
+      .col {
+        float: left;
+        width: 90%;
+        padding: 5% 0%;
+      }
     }
   }
 }
