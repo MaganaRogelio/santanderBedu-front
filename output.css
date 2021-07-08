@@ -161,7 +161,8 @@
 .cta .box p > a {
   color: #67b54b;
 }
-.cta .box form input, .cta .box form button {
+.cta .box form input,
+.cta .box form button {
   vertical-align: middle;
 }
 .cta .box form button {
@@ -174,6 +175,37 @@
   font-weight: 500;
   line-height: 1.6;
   max-width: 340px;
+}
+
+.footer {
+  padding: 5% 10% 2%;
+  margin: 0;
+  max-width: unset;
+}
+.footer h2 {
+  color: #025157;
+  font-family: "Alegreya", serif;
+}
+.footer p {
+  font-size: 16px;
+  color: #4a4a4a;
+}
+.footer h4 {
+  text-transform: uppercase;
+  color: #025157;
+  font-weight: 700;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+.footer ul {
+  list-style: none;
+}
+.footer ul li {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.footer ul li a {
+  color: #4a4a4a;
 }
 
 @media (max-width: 575px) {

@@ -71,14 +71,14 @@
     .card {
       .card-body {
         color: $gray;
-  
+
         .card-title {
           @extend %card-title;
         }
       }
       .metadata {
         color: $gray;
-  
+
         .category {
           color: $light-green;
         }
@@ -171,7 +171,8 @@
       }
     }
     form {
-      input, button {
+      input,
+      button {
         vertical-align: middle;
       }
       button {
@@ -188,9 +189,39 @@
     }
   }
 }
+.footer {
+  padding: 5% 10% 2%;
+  margin: 0;
+  max-width: unset;
+  h2 {
+    color: #025157;
+    font-family: "Alegreya", serif;
+  }
+  p {
+    font-size: 16px;
+    color: #4a4a4a;
+  }
+  h4 {
+    text-transform: uppercase;
+    color: #025157;
+    font-weight: 700;
+    font-size: 13px;
+    font-family: sans-serif;
+  }
+  ul {
+    list-style: none;
+    li {
+      margin-bottom: 20px;
+      font-size: 18px;
+      a {
+        color: #4a4a4a;
+      }
+    }
+  }
+}
 
-@media (max-width: 575px){
-  .blog{
+@media (max-width: 575px) {
+  .blog {
     .row {
       display: grid;
       .col {
